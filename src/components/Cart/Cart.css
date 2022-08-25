@@ -1,0 +1,196 @@
+.cartBox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(27, 27, 27);
+}
+
+h2{
+    align-self: center;
+}
+
+.cartItems{
+    width: 100%;
+}
+
+.cartBox h2{
+    align-self: center;
+    color: aliceblue;
+}
+
+.itemOrder{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+
+.itemInCart{
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    font-size: 1.5vw;
+}
+
+.itemInCart h3{
+    color: rgb(0, 0, 0);
+}
+
+.itemInCart img{
+    width: 150px;
+    height: 100%;
+}
+
+.itemInfo{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 0px 10px;
+}
+
+.deleteItem{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    font-size: medium;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.deleteItem:hover{
+    background-color: rgba(223, 19, 19, 0.747);
+    transition: 400ms;
+    color: #ffffff;
+}
+
+
+
+.dataCart{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: rgb(27, 27, 27);;
+}
+
+.cartData{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.clearCart{
+    width: 100px;
+    height: 60px;
+    border: 1px solid ;
+    border-radius: 0px;
+    background: none;
+    color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+}
+
+.clearCart:hover{
+    background-color: rgba(228, 47, 47, 0.747);
+    color: aliceblue;
+    transition: 600ms;
+}
+
+.endBuy{
+    width: 100px;
+    height: 60px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    background: none;
+    color: aliceblue;
+    padding: 5px;
+    margin: 10px;
+}
+
+.endBuy:hover{
+    background-color: rgba(16, 73, 21, 0.788);
+    color: aliceblue;
+    transition: 600ms;
+}
+
+
+
+.cartEmptyBox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+    color: #ffffff;
+}
+
+.cartEmptyBox p{
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+
+
+.formCart{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(27, 27, 27);
+    color: #ffffff;
+}
+
+.formCart form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(236, 236, 236);
+
+}
+
+.formCart input {
+    width: 300px;
+    height: 50px;
+    margin: 15px;
+    padding: 10px;
+    color: #000000;
+}
+
+.formCart input::placeholder{
+    color: #000000;
+    font-size: 1.5vw;
+}
+
+.formCart button{
+    width: 100px;
+    height: 60px;
+    font-size: medium;
+    margin: 0px;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    color: #ffffff;
+}
+
+.formCart button:hover{
+    background-color: rgb(27, 27, 27);
+    transition: 500ms;
+}
+
+
+.Toastify__toast-container{  
+    --toastify-color-light: rgb(2, 2, 2);
+    --toastify-text-color-light: #cecece;
+} 
