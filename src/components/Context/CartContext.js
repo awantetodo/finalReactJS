@@ -12,11 +12,10 @@ const CartProvider = (props) => {
             
             let index = cart.findIndex(element => element.id === item.id)
             
-            let product = cart[index];
-            product.quantity = product.quantity + quantity;
+
 
             const newCart = [...cart];
-            newCart.splice(index, 1, product);
+            newCart.splice(index, 1);
 
             setCart([...newCart]);
 
